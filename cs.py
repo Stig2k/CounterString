@@ -23,10 +23,6 @@ def createCounterString():
     e.delete(0, END)
 
 
-def myClick():
-    myLabel = Label(mywindow, text=e.get())
-    myLabel.pack()
-
 def button_click(digit):
     current = str(e.get())
     e.delete(0, END)
